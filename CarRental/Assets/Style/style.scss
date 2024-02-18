@@ -1671,9 +1671,21 @@ html{
     }
 }
 // ========== Copyright
-
+.copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: $clr-primary;
+    font-weight: 700;
+}
 // ========== Media Queries
 
 // ========== For Middle-High Width Device
-
+@media (max-width: 130px){
+    .how-its-works-page{
+        &::after{
+            animation: none;
+        }
+    }
+}
 // ========== For Middle-Low Width Device
